@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link  rel="stylesheet" href="./styles.css"/>
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<nav class="nav">
+  <div class="f-left">
+    <h2><b class="brand">sneakers</b></h2>
+    <a href="#">Collections</a>
+    <a href="#">Men</a>
+    <a href="#">Women</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="f-right">
+<image src="images/icon-cart.svg" alt="cart" class="cart"/>
+<image src="images/image-avatar.png" alt="avatar" class="avatar"/>
+  </div>
+</nav>
+<hr>
+</nav>
+  
+<div class="b-div">
+  <div class="display-part">
+    <!-- display part-->
+<image class="display-part-img" src="./images/image-product-1.jpg" alt="p1"/>
+<div class="div-thumbnail">
+  <image class="thumbnail" src="./images/image-product-1-thumbnail.jpg" alt="p1"/>
+  <image class="thumbnail" src="./images/image-product-2-thumbnail.jpg" alt="p1"/>
+  <image class="thumbnail" src="./images/image-product-3-thumbnail.jpg" alt="p1"/>
+  <image class="thumbnail" src="./images/image-product-4-thumbnail.jpg" alt="p1"/>
+</div>
+
+  </div>
+  <div class="detail-part">
+    <!-- Detailed part-->
+
+    <h4 style="color: hsl(0, 78%, 35%);text-transform: uppercase;"> Sneaker Company</h4>
+    <h1> Fall Limited Edition Sneakers</h1>
+    <p class="details-p" style="opacity: 80%; font-size: 15px; margin: 3% 0;">These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.
+    </p>
+    <div class="upper-price">
+     <div class="price">
+      <h3> <b>$125.00</b></h3>
+      <input type="button" class="discount" value="50%"/>
+     </div>
+     <p style="opacity:40%; font-size:15px !important;margin-top:1%">$250.00</p>
+    </div>
+    <div class="c-cart">
+      <div class="amount">
+        <image  style="margin-right: 1%;" src="images/icon-minus.svg" alt="minus" class="minus"/>
+        <label style="margin-right: 1%;" class="label-amount">0</label>
+        <image style="margin-right: 1%;" src="images/icon-plus.svg" alt="cart" class=""/>
+      </div>
+      <div class="cart-button">
+        <image src="./images/icon-cart.svg"/>
+        <input class="btn-cart" type="button" value="Add to cart"/>
+      </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

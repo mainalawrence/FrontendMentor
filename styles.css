@@ -1,0 +1,250 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
+
+*{
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    margin: 0%;
+    border: 0;
+}
+p{
+    font-size: 16px;
+}
+
+.nav{
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2% 0;
+}
+.brand{
+font-weight: 700;
+
+}
+
+.f-left{
+align-self: left;
+width: 70%;
+display: flex;
+align-items: center;
+margin-left: 2%;
+}
+.f-right{
+    align-self:right;
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.avatar{
+margin-left: 6%;
+width: 10%;
+}
+
+.avatar:hover{
+    opacity:70%;
+    cursor:pointer;
+}
+
+
+.cart{
+    margin-right: 5%;
+}
+a{
+   text-decoration: none;
+   margin-left: 5%;
+   color:  hsl(219, 9%, 45%);
+}
+a:hover{
+    opacity: 70%;
+}
+
+.b-div{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding-top: 2%;
+
+}
+.display-part{
+    flex:0.5;
+    display: flex;
+    flex-direction: column;
+    justify-items: end !important;
+    
+
+}
+.display-part-img{
+    width: 70%;
+    border-radius: 5%;
+    align-self: flex-end;
+    padding-right: 1%;
+}
+.detail-part{
+    flex:0.5;
+    padding-right:17%;
+    padding-left: 5%;
+}
+.div-thumbnail
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+   
+}
+.thumbnail{
+margin-top: 3%;
+width: 16.5%;
+margin-left: 1%;
+border-radius: 10%;
+opacity: 100;
+}
+.thumbnail:hover{
+    opacity: 50%;
+    }
+.price{
+    display: flex;
+    align-items: center;
+}
+.discount{
+margin-left: 1%;
+background-color:hsl(25, 100%, 94%); /* Green */
+  border: none;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+body{
+    width: 80%;
+    margin: auto;
+    background-color: hsl(223, 64%, 98%);
+}
+.upper-price{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cart{
+    color: white;
+    margin-left: 1%;
+    border: none;
+    padding: 1% 2%;
+    text-align: center;
+    font-size: 16px;
+    background-color:  hsl(26, 100%, 55%);
+    width: 80%;
+}
+.c-cart{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    align-items: center;
+    gap: 4%;
+}
+.cart-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(26, 100%, 55%);
+    color: white;
+    padding: 2% 3%;
+   text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    flex: 0.6;
+    margin-right: 1% !important;
+}
+.amount{
+    display:flex;
+    background-color: hsl(223, 64%, 98%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 2% 3%;
+   text-align: center;
+    font-size: 16px;
+    gap: 10;
+    flex: 0.3;
+}
+.minus{
+   margin-left: 1%;
+    height: 5%;
+}
+.plus{
+    height: 80%;
+    margin-left:1%;
+}
+.label-amount{
+    text-align: center;
+    color: black;
+
+    
+}
+/* Mobile part*/
+@media screen  and ( max-width:375px) {
+  
+    .nav{
+        margin-top: 2%;
+        width: 100%;
+        display: flex;
+      
+    }
+    a{
+        display: none;
+    }
+    .avatar{
+        margin-left: 6%;
+        width: 20%;
+        }
+        .b-div
+        {
+            flex-direction: column !important;
+        }
+        .div-thumbnail{
+            display: none;
+        }
+        .display-part-img{
+            width: 100%;
+        }
+        .detail-part{
+            margin-top: 5% !important;
+        }
+        .c-cart{
+            flex-direction: column !important;
+        
+        }
+        .amount{
+            width: 100%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .cart-button{
+            width: 100%;
+            margin-bottom: 5%;
+        }
+        .details-p{
+            opacity: 80%;
+            font-size: 16px;
+            margin: 5 5%;
+        }
+        .upper-price{
+            flex-direction: column !important;
+        }
+}
+
+
+
+/* dekstop part*/
+@media screen  and ( min-width:1440px) {
+    
+}
